@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <meta charset="UTF-8"/>
+		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		  <meta name="viewport"content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0,user-scalable=no">
+		  <meta name="format-detection" content="telephone=no">
+		  <meta name="renderer" content="webkit">
+		  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+		  <link rel="alternate icon" type="img/hengwang-1.png" href="img/hengwang-1.png">
+		  <link rel="stylesheet" href="css/map.css"/>
+		  <link rel="stylesheet" href="css/amazeui.css"/>
+		  <link rel="stylesheet" href="css/style.css"/>
+		  <link rel="stylesheet" href="css/css.css"/>
+		  <style>
+		  	#videoBox.in {
+			  animation: ac 1s;
+			  display: none !important;
+			}
+			#videoBox.out {
+			  position: fixed;
+			  bottom: 0;
+			  right: 0;
+			  width: 300px;
+			  z-index: 999;
+			  animation: an 0.5s;
+			}
+		  </style>
+		<title>首页</title>
+	</head>
+	<body>
+	<!--视频-->
+    <div id="videoBox" class="box drag">
+    <video width="100%" controls>
+      <source src="http://www.w3cschool.cc/try/demo_source/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support HTML5 video. </video>
+    </div>
+    <!--头部-->
+	<header class="am-topbar header">
+		<div class="am-container-1">
+			<div class="left hw-logo">
+			  <img class="logo" src="img/mwhw.png"></img>
+	    </div>
+	    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}">
+	    	<span class="am-sr-only">导航切换</span> 
+	    	<span class="am-icon-bars"></span>
+	    </button>
+	    <div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+		    <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
+		      <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+		      <li class="hw-menu-active"><a href="javascript:;">首页</a><div class="color-blue"></div></li>
+		      <li><a href="javascript:;">关于我们</a><div class="color-blue"></div></li>
+		      <li><a href="www.baidu.com">烧烤食材</a><div class="color-blue"></div></li>
+		      <li><a href="javascript:;">新品上市</a><div class="color-blue"></div></li>
+		      <li><a href="javascript:;">加入我们</a><div class="color-blue"></div></li>
+		      <li><a href="javascript:; ">商城链接</a><div class="color-blue"></div></li>
+		      <li><a href="javascript:;">招募代理</a><div class="color-blue"></div></li>
+		    </ul>
+		    </div>
+	    </div>
+	</header>
+	<!--轮播图开始-->
+	<div class="rollpic">
+	    <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}' >
+	        <ul class="am-slides">
+	            <li><img  alt="" src="img/banner1.jpg"/></li>
+	            <li><img  alt="" src="img/banner2.jpg"/></li>
+	            <li><img  alt="" src="img/banner1.jpg""/></li>
+	            <li><img  alt="" src="img/banner2.jpg"/></li>
+	        </ul>
+        </div>
+   </div>
+    <!--解决方案-->
+		<div class="gray-li">
+		<div class="customer-case part-all ">
+			 <ul data-am-widget="gallery" class=" am-avg-sm-1  am-avg-md-4 am-avg-lg-4 am-gallery-bordered customer-case-content" >
+			       <li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
+			        <div class="am-gallery-item case-img1">
+			            <a>
+			              <img src="img/list1.jpg"/>
+			            </a>
+			        </div>
+			        <div class="case-li-mengban">
+			        	<div class=" case-word">
+			              <h3 class="am-gallery-title">撸串套餐</h3>
+			              <a href="#" class="am-gallery-more">查看详情</a>
+			           </div>
+			        </div>
+			      </li>
+			      <li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
+			        <div class="am-gallery-item case-img1">
+			            <a  >
+			              <img src="img/list2.jpg"/>
+			            </a>
+			        </div>
+			        <div class="case-li-mengban">
+			        	<div class=" case-word">
+			               <h3 class="am-gallery-title">撸串套餐</h3>
+			               <a href="#" class="am-gallery-more">查看详情</a>
+			           </div>
+			        </div>
+			      </li>
+			      <li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
+			        <div class="am-gallery-item case-img1">
+			            <a  >
+			              <img src="img/list3.jpg"/>
+			            </a>
+			        </div>
+			        <div class="case-li-mengban">
+			        	<div class=" case-word">
+			               <h3 class="am-gallery-title">撸串套餐</h3>
+			              <a href="#" class="am-gallery-more">查看详情</a>
+			           </div>
+			        </div>
+			      </li>
+			      <li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
+			        <div class="am-gallery-item case-img1">
+			            <a  >
+			              <img src="img/list4.jpg"/>
+			            </a>
+			        </div>
+			        <div class="case-li-mengban">
+			        	<div class=" case-word">
+			               <h3 class="am-gallery-title">撸串套餐</h3>
+			               <a href="#" class="am-gallery-more">查看详情</a>
+			           </div>
+			        </div>
+			      </li>
+	  </ul>		
+	</div>
+	</div>
+	<!--品牌简介-->
+	<div>
+		<ul class=" product-show-ul">
+			<li>
+		    	<div class="product-content">
+				    	<div class="left am-u-sm-12 am-u-md-6 am-u-lg-6 product-content-left">
+				    		<img class="product-img" src="img/1.jpg">
+				    		
+				    	</div>
+				    	<div class="right am-u-sm-12 am-u-md-6 am-u-lg-6 product-content-right">
+				    		  <div class="product-show-title">
+				    			<h3>品牌简介</h3>
+				    			<h4>brand introduction</h4>
+				    			<p>木屋户外烧烤（简称“木屋户外”），创立于2010年6月与木屋烧烤、移动烧烤go串，
+				    				同为正君餐饮旗下三大品牌。木屋户外主要从事线上半成品烧烤食材销售及
+				    				线下大型团队上门服务，承接中高档商务聚餐，私人订制派对，
+				    				专业烤师团队上门服务、大小型活动策划。为露营、郊游居家、
+				    				海边烧烤活动提供食材一站式订购服务。木屋户外倡导“带着食材
+				    				走出去”的户外DIY烧烤理念，旨在定义全新的生活、娱乐、休闲方式，为
+				    				用户带来前所未有的更便捷的户外BBQ体验。
+				    			</p>
+				    		</div>
+				    	</div>	
+				    	<div class="clear"></div>
+		    	</div>
+		    </li>
+		    
+		    <div class="clear"></div>
+		</ul>
+	</div>
+	
+	<!--品牌历史-->
+	<div>
+		<ul class=" product-show-ul" style="background: #000;">
+			<li style="padding: 0;">
+		    	<div class="product-content right" style="margin: 0; width: 100%;">
+				    	<div class="right am-u-sm-12 am-u-md-6 am-u-lg-6 product-content-left" style="padding: 0;">
+				    		<img class="product-img" src="img/2.jpg">
+				    		
+				    	</div>
+				    	<div class="left am-u-sm-12 am-u-md-6 am-u-lg-6 product-content-right">
+				    		  <div class="product-show-title" style="text-align: right; color: #fff;">
+				    			<h3 style="text-align: right; padding-right: 30px; border-right: 6px solid #008000;">品牌历史</h3>
+				    			<ul>
+				    				<li style="color: #999;"><span style="display: block; color: #fff;">2010</span>正君餐饮总部成立木屋户外，并注册木屋户外商标</li>
+				    				<li style="color: #999;"><span style="display: block;color: #fff;">2013</span>深圳市正君木屋电子商务部正式成立</li>
+				    				<li style="color: #999;"><span style="display: block;color: #fff;">2015</span>深圳市正君木屋电子商务有限公司正式成立</li>
+				    				<li style="color: #999;"><span style="display: block;color: #fff;">2010-2017</span>7年间，木屋户外品牌不断壮大，在深圳、广州、上海、北京、天津、重<br>庆等城市全面铺开线上线下市场</li>
+				    				
+				    			</ul>
+				    		</div>
+				    	</div>	
+				    	<div class="clear"></div>
+		    	</div>
+		    </li>
+		    
+		    <div class="clear"></div>
+		</ul>
+	</div>
+	<!--全国门店-->
+	<div class="news-all">
+		<div class="service-center">
+		    <ul class="service-ul">
+		    	<li class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+		    		<div class="am-u-lg-6 am-u-md-6 am-u-sm-12 service-content service-img hwsf_right">
+		    			<h2>全国门店</h2>
+		    			<P>National stores</P>
+		    			<P>全国百家门店自提免运费</P>
+		    			<div class="in_map" style="width: 100%;"><img src="img/map.png"></div>
+		    		</div>
+		    		<div class="am-u-lg-6 am-u-md-6 am-u-sm-12 service-img hwsf_right">
+		    			<h2>顺丰快递</h2>
+		    			<P>1.  食材，蔬菜当天制作</P>
+		    			<P>2.  顺丰冷冽12-24小时到家</P>
+		    		   <img src="img/shunfen.png">	
+		    		</div>
+		    	</li>
+		    </ul>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<!--加入我们-->
+	<div class="about" style="margin-bottom: 200px;">
+		  <div class="am-g am-container">
+		  	<h2 style="text-align: center; padding-bottom: 31px;">加入我们</h2>
+		  	<span class="jrwm_line" style="display:block; width: 66px; height: 4px; background: #6a6a6a; margin: 0 auto; margin-bottom: 31px;"></span>
+		  	<h3  style="text-align: center; font-size: 15px; color: #999; margin-bottom: 108px;">深圳市木屋电子商务商务有限公司</h3>
+		    <div class="am-u-lg-12">
+		      <h2 class="about-title about-color" style="font-size: 18px; font-weight: 500;">推客协议</h2>
+		
+		      <div class="am-g"> 
+		        <div class="am-u-lg-6 am-u-md-8 am-u-sm-12">
+		          <p>木屋烧烤2003年10月在深圳成立！公司凭借“敢为天下先”的信念，脚踏实地，不断探索，锐意进取，使得木屋烧烤在12年的时间里不断壮大，迅速开拓了北京、上海、广州深圳、天津、重庆6大城市，门店近百家，并取得了辉煌的成绩。</p>
+		          <p>木屋户外烧烤与木屋烧烤同属于深圳市正君餐饮管理顾问有限公司旗下的品牌。木屋户外立于2010年6月。我们致力于为客户提供一站式烧烤食材解决方案。网上商城销售各类烧烤食材、烤全羊、便携式烤炉等烧烤工具。</p>
+		          <P>在包装方面加入了冰袋的保温泡沫箱，让您在炎炎夏日也能享受新鲜健康的烧烤食材，加入我们，把木屋的美味烧烤带给您的客户吧。 </P>
+		          <P>推客须知：  </P>
+		          <P>1、请填写真实信息，包含联系方式及所在地区，以便公司为您提供更好的营销支持</P>
+		          <P>2、共同维护“木屋烧烤”及“木屋户外烧烤”的品牌，建立健康有序的烧烤行业市场；</P>
+		          <P>3、请勿随意调整商品价格，或许诺客户折扣；</P>
+		          <P>4、请勿私下在其他渠道以木屋烧烤或木屋户外烧烤的名义进行销售。 </P>
+		          <P>5、由于木屋烧烤的食材为生鲜产品，部分城市或地区快递无法送达，不要轻易许诺客户</P>
+		          <P>6、木屋烧烤在北京、天津、上海、广州、深圳、重庆均有门店，这些城市的同城快递都可以满足，客户也可以选择门店自提的方式。</P>
+		        </div>
+		        <div class="am-u-lg-6 am-u-md-4 am-u-sm-12">
+		          <form class="am-form">
+		            <div class="am-input-group" style="border-bottom: #ccc 1px solid;">
+					  <span class="am-input-group-label" style="padding: 0; border: 0; background: #fff;">名称：</span>
+					  <input type="text" class="am-form-field" placeholder="请填写姓名" style="border: none; outline: none !important;box-shadow: none; ">
+					</div>
+		            <br>
+		            <div class="am-input-group" style="border-bottom: #ccc 1px solid;">
+					  <span class="am-input-group-label" style="padding: 0; border: 0; background: #fff;">联系方式：</span>
+					  <input type="text" class="am-form-field" placeholder="请填写联系方式" style="border: none; outline: none !important;box-shadow: none;">
+					</div>
+		            <br>
+		   			<div class="am-input-group" style="border-bottom: #ccc 1px solid;">
+					  <span class="am-input-group-label" style="padding: 0; border: 0; background: #fff;">地区：</span>
+					  <input type="text" class="am-form-field" placeholder="请填写所在地区" style="border: none;outline: none !important;box-shadow: none; ">
+					</div>
+		            <br>
+		            <button type="submit" class="am-btn am-btn-primary am-btn-sm" style="width: 100px; height: 40px; background: #51b432; border: none;  border-radius: 5px;">提 交</button>
+		            <button type="submit" class="am-btn am-btn-primary am-btn-sm"style="width: 100px; height: 40px; background: #545454; border: none;  border-radius: 5px; margin-left: 40px;">取消</button>
+		          </form>
+		          <hr class="am-article-divider am-show-sm-only">
+		        </div>  
+		      </div>
+		    </div>
+		  </div>
+    </div>
+    
+	<!--底部-->
+	<footer class="footer ">
+     	<ul class="am-avg-sm-1 am-avg-md-3 am-avg-lg-3 am-thumbnails">
+	  	<li>
+	  	    <div class="lianxi" style="float: left;">
+				<a href="http://weibo.com/muwubbq" class="xinlang"></a>
+				<a href="javascript:void(0);" id="wx" class="weixin"></a>
+			</div>
+			<p class="call"><a href="javascript:void(0);"  style="font-size: 14px; color: #999; line-height: 3.2rem;">电话: 0755-83703179</a><a href="javascript:void(0);"  style="font-size: 14px;color: #999;">邮箱：szhw@muwubbq.com</a></p>
+	  	</li>
+	  	<li>
+		  	<div class="muwu_icon" style="padding-right: 18px; border-right: #999 1px solid;"><img src="img/mwsk.png"></div>
+			<div class="muwu_icon" style="padding-left: 18px;"><img src="img/mwhw.png"></div>
+		</li>
+	  	<li>
+		  	<p style="font-size: 14px;color: #999">CopyRight © 2003-2017 MUWUBBQ.COM. All Rights Reserved.</p>
+		  	<p style="font-size: 14px; color: #999">粤ICP备09001617号.</p>
+			<p style="font-size: 14px;color: #999">深圳市正君木屋电子商务有限公司 版权所有</p>
+	  	</li>
+	</ul>		
+	</footer>
+		
+	<!--回到顶部-->
+	 <div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+	    <a href="#top" title="">
+	        <img class="am-gotop-icon-custom" src="img/go_back.png"/>
+	    </a>
+    </div>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/amazeui.min.js" ></script>
+	<script src="js/scroll.js"></script>
+	<script>
+		//视频滚动
+		var ha = ( $('#videoBox').offset().top + $('#videoBox').height() );
+		console.log(ha);
+		
+		$(window).scroll(function(){  
+		
+			if ( $(window).scrollTop() > ha + 500 ) { 
+		    $('#videoBox').css('bottom','200px'); 
+			} else if ( $(window).scrollTop() < ha + 200) {  
+		    $('#videoBox').removeClass('out').addClass('in');     
+			} else {       
+		  	$('#videoBox').removeClass('in').addClass('out');   
+		    $('#videoBox').css('bottom','-500px');             
+		 };  
+		});
+		//视频拖拽
+		$(function() {
+            var _move = false; //移动标记
+            var _x, _y; //鼠标离控件左上角的相对位置
+            $(".drag").mousedown(function(e) {
+                 _move = true;
+                 _x = e.pageX - parseInt($(".drag").css("left"));
+                 _y = e.pageY - parseInt($(".drag").css("top"));
+                 $(".drag").fadeTo(20, 0.5); //点击后开始拖动并透明显示
+            });
+             $(document).mousemove(function(e) {
+                 if (_move) {
+                     var x = e.pageX - _x; //移动时根据鼠标位置计算控件左上角的绝对位置
+                    var y = e.pageY - _y;
+                     $(".drag").css({ top: y, left: x }); //控件新位置
+                }
+             }).mouseup(function() {
+                 _move = false;
+                 $(".drag").fadeTo("fast", 1); //松开鼠标后停止移动并恢复成不透明
+            });
+         });
+//			window.onload = function () {
+//	        var oDiv = document.getElementById('shipin');
+//	  
+//	        function onMouseWheel(ev) {/*当鼠标滚轮事件发生时，执行一些操作*/
+//	            var ev = ev || window.event;
+//	            var down = true; // 定义一个标志，当滚轮向下滚时，执行一些操作
+//	                down = ev.wheelDelta?ev.wheelDelta<0:ev.detail>0;
+//	            if(down){
+//	                oDiv.style.height = oDiv.offsetHeight+10+'px';
+//	            }else{
+//	                oDiv.style.height = oDiv.offsetHeight-10+'px';
+//	            }
+//	            if(ev.preventDefault){/*FF 和 Chrome*/
+//	                ev.preventDefault();// 阻止默认事件
+//	            }
+//	            return false;
+//	        }
+//	        addEvent(oDiv,'mousewheel',onMouseWheel);
+//	        addEvent(oDiv,'DOMMouseScroll',onMouseWheel);
+//	     }
+//	    function addEvent(obj,xEvent,fn) {
+//	        if(obj.attachEvent){
+//	            obj.attachEvent('on'+xEvent,fn);
+//	        }else{
+//	            obj.addEventListener(xEvent,fn,false);
+//	        }
+//	    }	
+	</script>
+</html>
